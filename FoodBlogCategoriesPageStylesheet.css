@@ -1,0 +1,108 @@
+/*----Navigation Bar------------------*/
+#NavigationBar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img
+{
+	height: 50px;
+	padding-left: 30px;
+	color: #fff!important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#NavigationBar ul li a:hover
+{
+	color: #ffc107!important;
+}
+
+.navbar
+{
+	background: #EC407A!important;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+#Food
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #5555 
+
+}
+
+h1:
+{
+	text-align: center;
+	color: #5555 !important ;
+	padding-bottom: 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.coloumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  position: relative;
+}
+
+.imgage-box {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 80%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgage-box:hover .overlay {
+  opacity: 1;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+

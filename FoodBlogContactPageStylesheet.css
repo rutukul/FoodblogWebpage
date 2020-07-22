@@ -1,0 +1,89 @@
+/*----Navigation Bar------------------*/
+#NavigationBar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img
+{
+	height: 50px;
+	padding-left: 30px;
+	color: #fff!important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#NavigationBar ul li a:hover
+{
+	color: #ffc107!important;
+}
+
+.navbar
+{
+	background: #EC407A!important;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+/*-----------------Get in touch-------------*/
+#contact
+{
+	background:#efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+.btn
+{
+	background: #EC407A!important;
+	color: white!important;
+}

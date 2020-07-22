@@ -1,0 +1,60 @@
+/*----Navigation Bar------------------*/
+#NavigationBar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img
+{
+	height: 50px;
+	padding-left: 30px;
+	color: #fff!important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#NavigationBar ul li a:hover
+{
+	color: #ffc107!important;
+}
+
+.navbar
+{
+	background: #EC407A!important;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*----Cards-------------------------*/
+.card-title
+{
+	padding-top: 50px;
+}
+
+.btn
+{
+	background: #EC407A!important;
+	color: #fff!important;
+}
